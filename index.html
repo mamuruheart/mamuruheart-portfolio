@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+        .gm-style .gm-style-mtc label,
+        .gm-style .gm-style-mtc div {
+            font-weight: 400
+        }
+    </style>
+    <style>
+        .gm-control-active > img {
+            box-sizing: content-box;
+            display: none;
+            left: 50%;
+            pointer-events: none;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%)
+        }
+
+        .gm-control-active > img:nth-child(1) {
+            display: block
+        }
+
+        .gm-control-active:hover > img:nth-child(1),
+        .gm-control-active:active > img:nth-child(1) {
+            display: none
+        }
+
+        .gm-control-active:hover > img:nth-child(2),
+        .gm-control-active:active > img:nth-child(3) {
+            display: block
+        }
+    </style>
+    <link type="text/css" rel="stylesheet" href="./assets/css">
+    <style>
+        .gm-ui-hover-effect {
+            opacity: .6
+        }
+
+        .gm-ui-hover-effect:hover {
+            opacity: 1
+        }
+    </style>
+    <style>
+        .gm-style .gm-style-cc span,
+        .gm-style .gm-style-cc a,
+        .gm-style .gm-style-mtc div {
+            font-size: 10px;
+            box-sizing: border-box
+        }
+    </style>
+    <style>
+        @media print {
+
+            .gm-style .gmnoprint,
+            .gmnoprint {
+                display: none
+            }
+        }
+
+        @media screen {
+
+            .gm-style .gmnoscreen,
+            .gmnoscreen {
+                display: none
+            }
+        }
+    </style>
+    <style>
+        .gm-style-pbc {
+            transition: opacity ease-in-out;
+            background-color: rgba(0, 0, 0, 0.45);
+            text-align: center
+        }
+
+        .gm-style-pbt {
+            font-size: 22px;
+            color: white;
+            font-family: Roboto, Arial, sans-serif;
+            position: relative;
+            margin: 0;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%)
+        }
+    </style>
+    <style>
+        .gm-style img {
+            max-width: none;
+        }
+
+        .gm-style {
+            font: 400 11px Roboto, Arial, sans-serif;
+            text-decoration: none;
+        }
+    </style>
+    <title> 南出 創の履歴書/職務暦書 </title>
+    <!-- Required meta tags -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Ganpat kakar Personal cv/resume template.">
+    <meta name="keywords"
+          content="Ganpat Kakar creative, cv, designer,  online cv, online resume, powerful portfolio, professional, professional resume, responsive, resume,">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- FAV AND ICONS   -->
+    <link rel="shortcut icon"
+          href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/favicon.ico">
+    <link rel="shortcut icon"
+          href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/apple-icon.png">
+    <link rel="shortcut icon" sizes="72x72"
+          href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/apple-icon-72x72.png">
+    <link rel="shortcut icon" sizes="114x114"
+          href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/apple-icon-114x114.png">
+
+    <!-- Google Font-->
+    <link href="./assets/css(1)" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="font/font-awesome/css/font-awesome.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/bootstrap.min.css">
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./assets/responsive.css">
+</head>
+
+<body class="white-vertion black-bg" data-gr-c-s-loaded="true">
+<!-- Start Loader -->
+<div class="section-loader" style="display: none;">
+    <div class="loader">
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!-- End Loader -->
+
+<!--
+===================
+NAVIGATION
+===================
+-->
+<header class="black-bg mh-header mh-fixed-nav nav-scroll mh-xs-mobile-nav wow fadeInUp" id="mh-header"
+        style="visibility: visible; animation-name: fadeInUp;">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg mh-nav nav-btn">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link"
+                               href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/home-one-w.html#mh-home">ホーム</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/home-one-w.html#mh-about">プロフィール</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/home-one-w.html#mh-skills">スキル</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/home-one-w.html#mh-experience">経験</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/home-one-w.html#mh-portfolio">ポートフォリオ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/home-one-w.html#mh-blog">ブログ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/home-one-w.html#mh-contact">お問い合わせ</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<!--
+===================
+HOME
+===================
+-->
+<section class="mh-home" id="mh-home">
+    <div class="home-ovimg">
+        <div class="container">
+            <div class="row xs-column-reverse section-separator vertical-middle-content home-padding">
+                <div class="col-sm-6">
+                    <div class="mh-header-info">
+                        <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"
+                             style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.1s; animation-name: fadeInUp;">
+                            <span>こんにちは</span>
+                        </div>
+
+                        <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"
+                            style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                            南出 創</h2>
+                        <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"
+                            style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                            ソフトウェアエンジニア</h4>
+
+                        <ul>
+                            <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"
+                                style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                <i class="fa fa-envelope"></i><a href="mailto:">mamuruheart@gmail.com</a></li>
+                            <!-- <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"
+                                style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                                <i class="fa fa-phone"></i><a href="callto:">+91 81973 54601</a></li> -->
+                            <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"
+                                style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInUp;">
+                                <i class="fa fa-map-marker"></i>
+                                <address>沖縄県那覇市宇栄原1丁目12-3 </address>
+                            </li>
+                        </ul>
+
+                        <!-- <ul class="social-icon wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s"
+                            style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.7s; animation-name: fadeInUp;">
+                            <li><a href="https://github.com/Ganpatkakar"><i class="fa fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/ganpat-kakar-7a6304b0/"><i
+                                    class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://medium.com/@kakarganpat"><i class="fa fa-medium"></i></a></li>
+                            <li><a href=https://stackoverflow.com/users/4725606/ganpat-kakar"><i
+                                    class="fa fa-stack-overflow"></i></a></li>
+                        </ul> -->
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"
+                         style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInUp;">
+                        <div class="img-border">
+                            <img src="./assets/my_portrait .jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+==================
+ABOUT
+=================
+-->
+<section class="mh-about" id="mh-about">
+    <div class="container">
+        <div class="row section-separator">
+            <div class="col-sm-12 col-md-6">
+                <div class="mh-about-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"
+                     style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                    <img src="./assets/fullstack engineer background_main.jpg" style="height: 80%; width:auto" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="mh-about-inner">
+                    <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"
+                        style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.1s; animation-name: fadeInUp;">
+                        私について</h2>
+                    <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"
+                       style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                       約９年間ソフトウェアエンジニアとしてWebシステム開発に関わる南出 創です。主にスキルは Also I am good at</p>
+                    <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"
+                         style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <ul>
+                            <li><span>JavaScript</span></li>
+                            <li><span>React Js</span></li>
+                            <li><span>Vue Js</span></li>
+                            <li><span>PHP</span></li>
+                            <li><span>jQuery</span></li>
+                            <li><span>Wordpress</span></li>
+                            <li><span>Larabel</span></li>
+                            <li><span>HTML 5</span></li>
+                            <li><span>CSS 3</span></li>
+                            <li><span>JSON</span></li>
+                            <li><span>Node Js</span></li>
+                            <li><span>Github</span></li>
+                            <li><span>Bootstrap</span></li>
+                            <li><span>Webpack</span></li>
+                            <li><span>UML</span></li>
+                            <li><span>Analytics development</span></li>
+                            <li><span>Express</span></li>
+                            <li><span>Debugging</span></li>
+                        </ul>
+                    </div>
+                    <a href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/home-one-w.html"
+                       class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"
+                       style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">履歴書をダウンロード <i class="fa fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+===================
+SERVICE
+===================
+-->
+<section class="mh-service">
+    <div class="container">
+        <div class="row section-separator">
+            <div class="col-sm-12 text-center section-title wow fadeInUp" data-wow-duration="0.8s"
+                 data-wow-delay="0.2s"
+                 style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                <h2>私がやること</h2>
+            </div>
+            <div class="col-sm-4">
+                <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                     data-wow-delay="0.3s"
+                     style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <i class="fa fa-bullseye purple-color"></i>
+                    <h3>UI/UX設計・デザイン</h3>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                     data-wow-delay="0.5s"
+                     style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <i class="fa fa-code iron-color"></i>
+                    <h3>ウェブ デザイン</h3>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                     data-wow-delay="0.7s"
+                     style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.7s; animation-name: fadeInUp;">
+                    <i class="fa fa-object-ungroup sky-color"></i>
+                    <h3>フロントエンド開発</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+===================
+SKILLS
+===================
+-->
+<section class="mh-skills" id="mh-skills">
+    <div class="container">
+        <div class="row section-separator">
+            <div class="section-title text-center col-sm-12">
+                <!--<h2>Skills</h2>-->
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="mh-skills-inner">
+                    <div class="mh-professional-skill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"
+                         style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <h3>技術的スキル</h3>
+                        <div class="each-skills">
+                            <div class="candidatos">
+                                <div class="parcial">
+                                    <div class="info">
+                                        <div class="nome">Javascript</div>
+                                        <div class="percentagem-num">95%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="percentagem" style="width: 90%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="candidatos">
+                                <div class="parcial">
+                                    <div class="info">
+                                        <div class="nome">React Js</div>
+                                        <div class="percentagem-num">95%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="percentagem" style="width: 80%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="candidatos">
+                                <div class="parcial">
+                                    <div class="info">
+                                        <div class="nome">Vue Js</div>
+                                        <div class="percentagem-num">70%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="percentagem" style="width: 70%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="candidatos">
+                                <div class="parcial">
+                                    <div class="info">
+                                        <div class="nome">PHP</div>
+                                        <div class="percentagem-num">85%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="percentagem" style="width: 70%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="candidatos">
+                                <div class="parcial">
+                                    <div class="info">
+                                        <div class="nome">jQuery</div>
+                                        <div class="percentagem-num">85%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="percentagem" style="width: 70%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="candidatos">
+                                <div class="parcial">
+                                    <div class="info">
+                                        <div class="nome">Wordpress</div>
+                                        <div class="percentagem-num">70%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="percentagem" style="width: 70%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="candidatos">
+                                <div class="parcial">
+                                    <div class="info">
+                                        <div class="nome">Laravel</div>
+                                        <div class="percentagem-num">70%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="percentagem" style="width: 70%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="candidatos">
+                                <div class="parcial">
+                                    <div class="info">
+                                        <div class="nome">HTML 5</div>
+                                        <div class="percentagem-num">90%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="percentagem" style="width: 90%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="candidatos">
+                                <div class="parcial">
+                                    <div class="info">
+                                        <div class="nome">CSS 3</div>
+                                        <div class="percentagem-num">80%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="percentagem" style="width: 80%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="candidatos">
+                                <div class="parcial">
+                                    <div class="info">
+                                        <div class="nome">JSON</div>
+                                        <div class="percentagem-num">60%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="percentagem" style="width: 60%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="candidatos">
+                                <div class="parcial">
+                                    <div class="info">
+                                        <div class="nome">Node Js</div>
+                                        <div class="percentagem-num">30%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="percentagem" style="width: 30%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="candidatos">
+                                <div class="parcial">
+                                    <div class="info">
+                                        <div class="nome">Github</div>
+                                        <div class="percentagem-num">60%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="percentagem" style="width: 60%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="candidatos">
+                                <div class="parcial">
+                                    <div class="info">
+                                        <div class="nome">Bootstrap</div>
+                                        <div class="percentagem-num">90%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="percentagem" style="width: 90%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="candidatos">
+                                <div class="parcial">
+                                    <div class="info">
+                                        <div class="nome">Webpack</div>
+                                        <div class="percentagem-num">60%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="percentagem" style="width: 60%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="candidatos">
+                                <div class="parcial">
+                                    <div class="info">
+                                        <div class="nome">UML</div>
+                                        <div class="percentagem-num">70%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="percentagem" style="width: 60%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="candidatos">
+                                <div class="parcial">
+                                    <div class="info">
+                                        <div class="nome">Analytics development</div>
+                                        <div class="percentagem-num">65%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="percentagem" style="width: 60%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="candidatos">
+                                <div class="parcial">
+                                    <div class="info">
+                                        <div class="nome">Express</div>
+                                        <div class="percentagem-num">63%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="percentagem" style="width: 60%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="candidatos">
+                                <div class="parcial">
+                                    <div class="info">
+                                        <div class="nome">Debugging</div>
+                                        <div class="percentagem-num">65%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="percentagem" style="width: 60%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="mh-professional-skills wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"
+                     style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <h3>専門スキル</h3>
+                    <ul class="mh-professional-progress">
+                        <li>
+                            <div class="mh-progress mh-progress-circle active" data-progress="95"
+                                 style="position: relative;">
+                                <svg viewBox="0 0 100 100">
+                                    <path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95"
+                                          stroke="#eee" stroke-width="5" fill-opacity="0"></path>
+                                    <path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95"
+                                          stroke="#555" stroke-width="5" fill-opacity="0"
+                                          style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 14.9247;"></path>
+                                </svg>
+                                <p class="progressbar-text"
+                                   style="position: absolute; top: 50%; left: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(85, 85, 85);">
+                                    95%
+                                </p>
+                            </div>
+                            <div class="pr-skill-name">コミュニケーション</div>
+                        </li>
+                        <li>
+                            <div class="mh-progress mh-progress-circle active" data-progress="85"
+                                 style="position: relative;">
+                                <svg viewBox="0 0 100 100">
+                                    <path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95"
+                                          stroke="#eee" stroke-width="5" fill-opacity="0"></path>
+                                    <path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95"
+                                          stroke="#555" stroke-width="5" fill-opacity="0"
+                                          style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 42.322;"></path>
+                                </svg>
+                                <p class="progressbar-text"
+                                   style="position: absolute; top: 50%; left: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(85, 85, 85);">
+                                    85%</p></div>
+                            <div class="pr-skill-name">チームワーク/div>
+                        </li>
+                        <li>
+                            <div class="mh-progress mh-progress-circle active" data-progress="65"
+                                 style="position: relative;">
+                                <svg viewBox="0 0 100 100">
+                                    <path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95"
+                                          stroke="#eee" stroke-width="5" fill-opacity="0"></path>
+                                    <path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95"
+                                          stroke="#555" stroke-width="5" fill-opacity="0"
+                                          style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 98.789;"></path>
+                                </svg>
+                                <p class="progressbar-text"
+                                   style="position: absolute; top: 50%; left: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(85, 85, 85);">
+                                    65%</p></div>
+                            <div class="pr-skill-name">プロジェクト管理</div>
+                        </li>
+                        <li>
+                            <div class="mh-progress mh-progress-circle active" data-progress="60"
+                                 style="position: relative;">
+                                <svg viewBox="0 0 100 100">
+                                    <path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95"
+                                          stroke="#eee" stroke-width="5" fill-opacity="0"></path>
+                                    <path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95"
+                                          stroke="#555" stroke-width="5" fill-opacity="0"
+                                          style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 112.397;"></path>
+                                </svg>
+                                <p class="progressbar-text"
+                                   style="position: absolute; top: 50%; left: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(85, 85, 85);">
+                                    60%</p></div>
+                            <div class="pr-skill-name">創造性</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+===================
+EXPERIENCES
+===================
+-->
+<section class="mh-experince" id="mh-experience">
+    <div class="bolor-overlay">
+        <div class="container">
+            <div class="row section-separator">
+                <div class="col-sm-12 col-md-6">
+                    <div class="mh-work">
+                        <h3>職務経験</h3>
+                        <div class="mh-experience-deatils">
+                            <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                                 data-wow-delay="0.4s"
+                                 style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                <h4>ソフトウェア エンジニア <a
+                                        href="https://hk.jooble.org/%E6%8B%9B%E8%81%98-IT-specialist/%E5%B1%AF%E9%96%80">IT管理スペシャリスト会社</a>
+                                </h4>
+                                <div class="mh-eduyear">2023年1月～2024年12月</div>
+                                <span>業務内容</span>
+                                <ul class="work-responsibility">
+                                    <li><i class="fa fa-circle"></i>モジュール設計段階を適切な分解するに基づいてAPI 駆動型アーキテクチャを実行するためのドキュメント作成</li>
+                                    <li><i class="fa fa-circle"></i>MongoDBを使ったデータベース構築してnode.jsを使用</li>
+                                    <li><i class="fa fa-circle"></i>JavaScriptフレームワークReactを活用</li>
+                                </ul>
+                            </div>
+                            <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                                 data-wow-delay="0.6s"
+                                 style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInUp;">
+                                <h4>ソフトウェア エンジニア <a
+                                        href="https://www.forasoft.com/">Fora Soft </a></h4>
+                                <div class="mh-eduyear">2020年5月～2022年12月</div>
+                                <span>業務内容</span>
+                                <ul class="work-responsibility">
+                                    <li><i class="fa fa-circle"></i>TypeScriptを使用して検索キーワード定義とデータ構造分析</li>
+                                    <li><i class="fa fa-circle"></i>SQLクエリを使用して検索方法選定と結果ランキング</li>
+                                    <li><i class="fa fa-circle"></i>Material UIを使用して入力フィールドの設計、ローディングスピナー</li>
+                                </ul>
+                            </div>
+                            <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                                 data-wow-delay="0.7s"
+                                 style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.7s; animation-name: fadeInUp;">
+                                <h4>ウェブ UI 開発者 <a href="https://www.bochk.com/tc/branch.html">屯門中銀理財中心</a></h4>
+                                <div class="mh-eduyear">2016年5月～2020年4月</div>
+                                <span>業務内容</span>
+                                <ul class="work-responsibility">
+                                    <li><i class="fa fa-circle"></i>ステークホルダーインタビューと競合分析</li>
+                                    <li><i class="fa fa-circle"></i>機能定義、ユーザーフロー、アクセシビリティ要件</li>
+                                    <li><i class="fa fa-circle"></i>WordPressを利用してユーザーインターフェース設計</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="mh-education">
+                        <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"
+                            style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                            教育</h3>
+                        <div class="mh-education-deatils">
+                            <!-- Education Institutes-->
+                            <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                                 data-wow-delay="0.3s"
+                                 style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                                <h4>コンピュータエンジニア<a
+                                        href="https://www.ln.edu.hk/cht">嶺南大学, 香港</a></h4>
+                                <div class="mh-eduyear">2012-2016</div>
+                            </div>
+                            <!-- Education Institutes-->
+                            <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                                 data-wow-delay="0.5s"
+                                 style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                                <h4>中等学校 <a
+                                        href="https://www.stmgss.edu.hk/tc/">南屯門官立中學</a></h4>
+                                <div class="mh-eduyear">2006-2012</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+===================
+PORTFOLIO
+===================
+-->
+<section class="mh-portfolio" id="mh-portfolio">
+    <div class="container">
+        <div class="row section-separator">
+            <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"
+                 style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <h3>最近のポートフォリオ</h3>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+                <div class="mh-work portfolio-content">
+                    <div class="mh-experience-deatils">
+                        <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                             data-wow-delay="0.4s"
+                             style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                            <h4>E-コマース <a href="https://github.com/mamuruheart/mamuru-ecommerce">オープンソース</a>
+                            </h4>
+                            <div class="mh-eduyear">2023年1月～2024年12月</div>
+                            <h6>プロジェクトについて</h6>
+                            <ul class="work-responsibility">
+                                <li><i class="fa fa-circle"></i>shop.csは、誰もが自分のスタイルに合った服を選べるEコマースシステムです。</li>
+                                <li><i class="fa fa-circle"></i>数種類の洋服をいつでもご購入いただけます。</li>
+                                <li><i class="fa fa-circle"></i>検索エンジン最適化の観点から製品の応答速度を改善します</li>
+                            </ul>
+
+                            <h6 style="margin-top: 15px;">担当業務</h6>
+                            <ul class="work-responsibility">
+                                <li><i class="fa fa-circle"></i>Tailwindを使用してカスタムCSSを減らして時間を節約しました</li>
+                                <li><i class="fa fa-circle"></i>Javascript のデータの曖昧さを減らすために、TypeScript を使用しました。</li>
+                                <li><i class="fa fa-circle"></i>パフォーマンスと SEO (検索エンジン最適化) を向上させるために、 next.js を使用しました。</li>
+                            </ul>
+
+                            <h6 style="margin-top: 15px;">テクノロジーの活用</h6>
+                            <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                                <ul>
+                                    <li><span>TypeScript</span></li>
+                                    <li><span>HTML 5</span></li>
+                                    <li><span>CSS 3</span></li>
+                                    <li><span>JSON</span></li>
+                                    <li><span>TailWind</span></li>
+                                    <li><span>React JS</span></li>
+                                    <li><span>Next JS</span></li>
+                                </ul>
+                            </div>
+                            <a href="https://github.com/mamuruheart/mamuru-ecommerce" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;"> 参照</a>
+                        </div>
+
+                        
+
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+                <div class="mh-work portfolio-content">
+                    <div class="mh-experience-deatils">
+                        <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                             data-wow-delay="0.4s"
+                             style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                            <h4>医療プラットフォームのWebデザ</h4>
+                            <div class="mh-eduyear">2020年5月～2022年12月</div>
+
+                            <h6>プロジェクトについて</h6>
+                            <ul class="work-responsibility">
+                                <li><i class="fa fa-circle"></i>このプロジェクトは、統合医療・医薬サービスシステムの開発に関連しています。</li>
+                                <li><i class="fa fa-circle"></i>ユーザーフレンドリーなインターフェースを設計し、素早く検索できるようにする。<div class=""></div></li>
+                            </ul>
+
+                            <h6 style="margin-top: 15px;">担当業務</h6>
+                            <ul class="work-responsibility">
+                                <li><i class="fa fa-circle"></i>UI、HTML、CSSを使用してユーザーインタラクティブを設計および開発する</li>
+                                <li><i class="fa fa-circle"></i>いくつかのテーマの実装を含むいくつかの機能を開発します</li>
+                                <li><i class="fa fa-circle"></i>データベースのサイズが大きいため、MySQLではなくPostgreSQLを使用しました。</li>
+                            </ul>
+
+                            <h6 style="margin-top: 15px;">Worked with Technology :</h6>
+                            <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                                <ul>
+                                    <li><span>React JS</span></li>
+                                    <li><span>JavaScript</span></li>
+                                    <li><span>HTML</span></li>
+                                    <li><span>CSS 3</span></li>
+                                    <li><span>PostgreSQL</span></li>
+                                    <li><span>jquery</span></li>
+                                    <li><span>laravel</span></li>
+                                    <li><span>AWS</span></li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">秘密保持契約</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!--
+===================
+FOOTER 1
+===================
+-->
+<footer class="mh-footer" id="mh-contact">
+    <div class="map-image image-bg">
+        <div class="container">
+            <div class="row section-separator">
+                <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"
+                     style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <h3>お問い合わせ</h3>
+                </div>
+                <div class="col-sm-12 mh-footer-address">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4">
+                            <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp"
+                                 data-wow-duration="0.8s" data-wow-delay="0.3s"
+                                 style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                                <div class="each-icon">
+                                    <i class="fa fa-location-arrow"></i>
+                                </div>
+                                <div class="each-info">
+                                    <h4>住所</h4>
+                                    <address>
+                                        沖縄県那覇市宇栄 <br>
+                                        原1丁目12-3
+                                    </address>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp"
+                                 data-wow-duration="0.8s" data-wow-delay="0.5s"
+                                 style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                                <div class="each-icon">
+                                    <i class="fa fa-envelope-o"></i>
+                                </div>
+                                <div class="each-info">
+                                    <h4>メールアドレス</h4>
+                                    <a href="mailto:yourmail@email.com">mamuruheart@gmail.com</a><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp"
+                                 data-wow-duration="0.8s" data-wow-delay="0.7s"
+                                 style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.7s; animation-name: fadeInUp;">
+                                <div class="each-icon">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="each-info">
+                                    <h4>電話</h4>
+                                    <a href="callto:(880)-8976-987">+91 81973 54601</a><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 mh-copyright wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"
+                     style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <ul class="social-icon">
+                                <li><a href=https://github.com/mamuruheart><i class="fa fa-github"></i></a></li>
+                                <li><a href="#"><i
+                                        class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-medium"></i></a></li>
+                                <li><a href="https://stackoverflow.com/users/4725606/ganpat-kakar"><i
+                                        class="fa fa-stack-overflow"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--
+==============
+* JS Files *
+==============
+-->
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<!-- jQuery -->
+<script src="./assets/jquery.min.js"></script>
+<!-- bootstrap -->
+<script src="./assets/bootstrap.min.js"></script>
+<!-- wow -->
+<script src="./assets/wow.min.js"></script>
+<!-- jquery nav -->
+<script src="./assets/jquery.nav.js"></script>
+<!-- Fancybox js-->
+<script src="./assets/jquery.fancybox.min.js"></script>
+<!-- isotope js-->
+<script src="./assets/isotope.pkgd.js"></script>
+<script src="./assets/packery-mode.pkgd.js"></script>
+<script src="./assets/custom-scripts.js"></script>
+
+
+</body>
+
+</html>
