@@ -265,10 +265,10 @@ a {
 .mini-separator {
   padding: 20px 0; }
   
-  section {
+/* section {
     //padding: 60px 0;
     //padding-bottom: 30px;
-}
+} */
 
 /**
  * ---------------------
@@ -535,8 +535,7 @@ ul {
 .featured-img-two {
   background-image: url(../images/extra-feature-bg.jpg); }
 
-.map-image {
-  background-image: url(../images/map-color-overlay.png); }
+
 
 .mt-30 {
   margin-top: 30px; }
@@ -1233,10 +1232,11 @@ body {
       border-top-right-radius: 10px;
       border-bottom-right-radius: 10px;
       background: #0bceaf;
-      -webkit-transition: 3s all;
-      -webkit-animation-duration: 3s;
-      -webkit-animation-name: animationProgress; }
-    .candidatos .parcial .partidas {
+      /* -webkit-transition: 3s all; */
+      /* -webkit-animation-duration: 3s; */
+      /* -webkit-animation-name: animationProgress; } */
+    }
+      .candidatos .parcial .partidas {
       font-size: 10px;
       font-weight: 600;
       text-transform: uppercase; }
@@ -1768,11 +1768,11 @@ body {
     Mobile Nav
 ==============
 */
-.old {
+/* .old { */
   /*==============
             Overlay            
   ================== */
-  /*  Navigation Menu */ }
+   /* Navigation Menu } */
   .old .navbar-collapse {
     position: fixed;
     top: 0;
